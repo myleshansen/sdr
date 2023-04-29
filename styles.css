@@ -73,17 +73,35 @@ li:hover {
 ul li:hover > ul,
 .sub__nav:hover {
   visibility: visible;
-  opacity: 1;
-  display: block;
 }
 
 ul li:focus > ul,
 .sub__nav:focus {
   visibility: visible;
-  opacity: 1;
-  display: block;;
 }
 
 ul li ul li:hover {
   background-color: #f1f1f1;
+}
+
+.links {
+  margin-top: 200px;
+}
+
+.bad-link {
+  color: black;
+  text-decoration: none;
+}
+
+.bad-link:hover, .bad-link:focus {
+  color: white;
+}
+
+.good-link {
+  color: black;
+  text-decoration: none;
+}
+
+.good-link:hover, .good-link:focus {
+  font-weight: bold;
 }
